@@ -8,7 +8,7 @@ from ethon.mystarts import start_srb
     
 S = '/' + 's' + 't' + 'a' + 'r' + 't'
 
-st = "**--HEY Buddy 🤡 Send me Link of message to clone it here  /n👻 FOR PUBLIC CHANNEL SEND DIRECT LINK OF MESSAGE 👻 /n ⚜️ For private channel message, Send invite link first ⚜️ /n🔆 POWERD BY :- @TEAM_SILENT_KING 🔆/n 🔰CREATOR : @ITS_NOT_ROMEO 🔰 **-- .\n**Hit /help to know more. \n JOIN :- @TEAM_SILENT_KING TO USE ME **"
+st = "**--HEY Buddy 🤡 Send me Link of message to clone it here  <BR>👻 FOR PUBLIC CHANNEL SEND DIRECT LINK OF MESSAGE 👻 <BR> ⚜️ For private channel message, Send invite link first ⚜️ <BR> 🔆 POWERD BY :- @TEAM_SILENT_KING 🔆\n 🔰CREATOR : @ITS_NOT_ROMEO 🔰 ** .\n**Hit /help to know more. \n JOIN :- @TEAM_SILENT_KING TO USE ME **"
 
 @Drone.on(events.callbackquery.CallbackQuery(data="set"))
 async def sett(event):    
@@ -64,5 +64,5 @@ async def start(event):
        # start help Message
 @Drone.on(events.NewMessage(pattern="^/help$"))
 async def search(event):
-    await event.reply('<b><u>For Public Restricted Channel contents.</b></u>\nTo get public restricted Channel contents, just send your Post link i will give you that post without Downloading.\n\n<b><u>For Private Restricted Channel contents.</b></u>\nTo get private restricted Channel contents, First send me Channel invite link so that i can join your channel after that send me post link of your restricted Channel to get that post. ,<BR><B><U><I> JOIN :- @TEAM_SILENT_KING TO USE ME </B></U></I>', parse_mode="HTML")
+    await event.reply('<b><u>For Public Restricted Channel contents.</b></u>\nTo get public restricted Channel contents, just send your Post link i will give you that post without Downloading.\n\n<b><u>For Private Restricted Channel contents.</b></u>\nTo get private restricted Channel contents, First send me Channel invite link so that i can join your channel after that send me post link of your restricted Channel to get that post. <BR> , <B><U><I> JOIN :- @TEAM_SILENT_KING TO USE ME </B></U></I>', parse_mode="HTML")
     #end help Message
