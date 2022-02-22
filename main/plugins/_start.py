@@ -8,7 +8,7 @@ from ethon.mystarts import start_srb
     
 S = '/' + 's' + 't' + 'a' + 'r' + 't'
 
-st = "**Hii,\nI am Save restricted Contents bot.**\nSend me any public or private restricted Channel post link.\nI will give you that post.\n**Hit /help to know more.**"
+st = "**--HEY Buddy 🤡 Send me Link of message to clone it here  /n👻 FOR PUBLIC CHANNEL SEND DIRECT LINK OF MESSAGE 👻 /n ⚜️ For private channel message, Send invite link first ⚜️ /n🔆 POWERD BY :- @TEAM_SILENT_KING 🔆/n 🔰CREATOR : @ITS_NOT_ROMEO 🔰 **-- .\n**Hit /help to know more. \n JOIN :- @TEAM_SILENT_KING TO USE ME **"
 
 @Drone.on(events.callbackquery.CallbackQuery(data="set"))
 async def sett(event):    
@@ -48,7 +48,7 @@ async def remt(event):
 async def start(event):
     await event.reply(f'{st}', 
                       buttons=[
-                        [Button.url("Updates Channel", url="https://t.me/TEAM_SILENT_KING"),
+                        [Button.url("⚡️⚡️Updates Channel⚡️⚡️", url="https://t.me/TEAM_SILENT_KING"),
                          Button.url("Support Group", url="https://t.me/OFF_CHATS")],
                         [Button.url("YouTube Channel", url="https://www.youtube.com/channel/UC28Z7OuZiKuIZ-kFxNkG4Kww")],
                     ])
