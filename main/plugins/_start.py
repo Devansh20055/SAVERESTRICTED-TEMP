@@ -12,7 +12,7 @@ st = """**--HEY Buddy 🤡 Send me Link of message to clone it here
 👻 FOR PUBLIC CHANNEL SEND DIRECT LINK OF MESSAGE 👻 
  ⚜️ For private channel message, Send invite link first ⚜️ 
 🔆 POWERD BY :- @TEAM_SILENT_KING 🔆
- 🔰CREATOR : @ITS_NOT_ROMEO 🔰 ** .\n**Hit /help to know more. \n JOIN :- @TEAM_SILENT_KING TO USE ME **"
+ 🔰CREATOR : @ITS_NOT_ROMEO 🔰 ** .\n**Hit /help to know more. \n JOIN :- @TEAM_SILENT_KING TO USE ME **"""
 
 @Drone.on(events.callbackquery.CallbackQuery(data="set"))
 async def sett(event):    
