@@ -8,7 +8,7 @@ from ethon.mystarts import start_srb
     
 S = '/' + 's' + 't' + 'a' + 'r' + 't'
 
-st = "**Hii,\nI am @Pyrogrammers Save restricted Contents bot.**\nSend me any public or private restricted Channel post link.\nI will give you that post.\n**Hit /help to know more.**"
+st = "**Hii,\nI am Save restricted Contents bot.**\nSend me any public or private restricted Channel post link.\nI will give you that post.\n**Hit /help to know more.**"
 
 @Drone.on(events.callbackquery.CallbackQuery(data="set"))
 async def sett(event):    
@@ -48,9 +48,9 @@ async def remt(event):
 async def start(event):
     await event.reply(f'{st}', 
                       buttons=[
-                        [Button.url("Updates Channel", url="https://t.me/pyrogrammers"),
-                         Button.url("Support Group", url="https://t.me/+7ScFy39Vckk5MWQ1")],
-                        [Button.url("YouTube Channel", url="https://youtube.com/channel/UC2anvk7MNeNzJ6B4c0SZepw")],
+                        [Button.url("Updates Channel", url="https://t.me/TEAM_SILENT_KING"),
+                         Button.url("Support Group", url="https://t.me/OFF_CHATS")],
+                        [Button.url("YouTube Channel", url="https://www.youtube.com/channel/UC28Z7OuZiKuIZ-kFxNkG4Kww")],
                     ])
     try:
         await Bot.start()
@@ -64,5 +64,5 @@ async def start(event):
        # start help Message
 @Drone.on(events.NewMessage(pattern="^/help$"))
 async def search(event):
-    await event.reply('<b><u>For Public Restricted Channel contents.</b></u>\nTo get public restricted Channel contents, just send your Post link i will give you that post without Downloading.\n\n<b><u>For Private Restricted Channel contents.</b></u>\nTo get private restricted Channel contents, First send me Channel invite link so that i can join your channel after that send me post link of your restricted Channel to get that post.', parse_mode="HTML")
+    await event.reply('<b><u>For Public Restricted Channel contents.</b></u>\nTo get public restricted Channel contents, just send your Post link i will give you that post without Downloading.\n\n<b><u>For Private Restricted Channel contents.</b></u>\nTo get private restricted Channel contents, First send me Channel invite link so that i can join your channel after that send me post link of your restricted Channel to get that post. , JOIN :- @TEAM_SILENT_KING TO USE ME ', parse_mode="HTML")
     #end help Message
