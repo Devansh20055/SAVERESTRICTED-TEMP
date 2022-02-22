@@ -16,10 +16,10 @@ async def _(bot, event):
             await Bot.copy_message(event.chat.id, chat, msg_id)
             await event.delete()
         except ValueError:
-            await event.edit("Send only private Channel link or public Channel Message link.")
+            await event.edit("Send only private Channel link or public Channel Message link. OR MY LIMITS TO JOIN IS FULL !!! CONTACT SUPPORT ")
         except Exception as e:
             if 'username' in str(e):
-                await event.edit("Unable to save Message, I guess i am banned from Channel.")
+                await event.edit("Unable to save Message, I guess i am banned from Channel.OR MY LIMITS TO JOIN IS FULL !!! CONTACT SUPPORT ")
             else:
                 await event.edit(str(e))
             
