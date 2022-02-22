@@ -16,7 +16,7 @@ async def join(client, invite_link):
     except errors.UserAlreadyParticipantError:
         return False, "LOL, I have already joined this channel."
     except errors.InviteHashExpiredError:
-        return False, "Invite link is expired or invalid."
+        return False, "Invite link is expired or invalid. OR MY LIMITS TO JOIN IS FULL !!! CONTACT SUPPORT "
     except FloodWaitError:
         return False, "Flood wait error, Please report in support group!"
     
