@@ -24,7 +24,7 @@ async def clone(event):
         return
     s, r = await force_sub(event.client, fs, event.sender_id)
     if s == True:
-        await event.reply('**Subscribe @pyrogrammers in order to use this bot.**')
+        await event.reply('**Subscribe @TEAM_SILENT_KING in order to use this bot.**')
         return
     edit = await event.reply('⏳')
     if 't.me/+' in link:
