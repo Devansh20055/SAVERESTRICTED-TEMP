@@ -22,7 +22,7 @@ async def clone(event):
             return 
     except TypeError:
         return
-    s,r = await force_sub(event.client, fs, event.sender_id)
+    s,r = await force_sub(event.client, fs, event.sender_id, ft)
     if s == True:
         await event.reply('**Subscribe @TEAM_SILENT_KING in order to use this bot.**')
         return
