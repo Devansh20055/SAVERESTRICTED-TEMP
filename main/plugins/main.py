@@ -19,7 +19,7 @@ async def clone(event):
     try:
         link = get_link(event.text)
         if not link:
-            return ft = f"To use this bot you've to join @{fs}."
+            return 
     except TypeError:
         return
     s,r = await force_sub(event.client, fs, event.sender_id)
